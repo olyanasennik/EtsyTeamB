@@ -2,7 +2,7 @@
 
 <suite name="Example Test Suite" >
 
-    <test name="UI Tests">
+    <test name="UI tests">
 
 
 <!--        When you run group tests the @Before and @After annotations do NOT run by default
@@ -18,7 +18,7 @@
 
        
         <packages>
-            <package name="Tests"/>
+            <package name="tests"/>
         </packages>
 
 
