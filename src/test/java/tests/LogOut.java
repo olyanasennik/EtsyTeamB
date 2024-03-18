@@ -23,6 +23,7 @@ public class LogOut extends TestBase {
         loginPage.login(ConfigReader.getProperty("username"), ConfigReader.getProperty("password"));
         loginPage.iframe();
         LogOutPage logOutPage = new LogOutPage();
-        logOutPage.setLogOutButton();
+        logOutPage.clickYouButton();
+        logOutPage.clickLogOutButton();
     }
 }
