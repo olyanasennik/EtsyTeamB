@@ -12,16 +12,17 @@ import java.time.Duration;
  */
 public class TestBase {
 
-    @BeforeMethod (alwaysRun = true)
-    public void setup(){
+    @BeforeMethod(alwaysRun = true)
+    public void setup() {
         Driver.getDriver().manage().window().maximize();
         Driver.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
     }
 
-    @AfterMethod (alwaysRun = true)
-    public void tearDown(){
+    @AfterMethod(alwaysRun = true)
+    public void tearDown() {
 
         Driver.quitDriver();
     }
 }
+
