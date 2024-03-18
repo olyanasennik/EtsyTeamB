@@ -18,7 +18,10 @@ public class LogOut extends TestBase {
 
         Driver.getDriver().get(ConfigReader.getProperty("url"));
         LoginPage loginPage = new LoginPage();
+        loginPage.iframe();
+        loginPage.getSignin().click();
         loginPage.login(ConfigReader.getProperty("username"), ConfigReader.getProperty("password"));
+        loginPage.iframe();
         LogOutPage logOutPage = new LogOutPage();
         logOutPage.setLogOutButton();
     }
