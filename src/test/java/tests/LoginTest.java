@@ -16,6 +16,8 @@ public class LoginTest extends TestBase {
 
         Driver.getDriver().get(ConfigReader.getProperty("url"));
         LoginPage loginPage = new LoginPage();
+        LoginPage loginPage = null;
+        loginPage.signInButton.click();
         loginPage.login(ConfigReader.getProperty("username"), ConfigReader.getProperty("password"));
         Assert.assertEquals(Driver.getDriver().getTitle(), "Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone");
 
@@ -26,6 +28,8 @@ public class LoginTest extends TestBase {
     public void testInvalidCredentials() throws IOException{
 
         Driver.getDriver().get(ConfigReader.getProperty("url"));
+        LoginPage loginPage = null;
+        loginPage.signInButton.click();
         new LoginPage().login("invalidUser", "invalidPass");
         Assert.assertNotEquals(Driver.getDriver().getTitle(), "Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone");
 
@@ -34,6 +38,8 @@ public class LoginTest extends TestBase {
     @Test
     public void testInvalidCredentialsNoUsername() throws IOException{
         Driver.getDriver().get(ConfigReader.getProperty("url"));
+        LoginPage loginPage = null;
+        loginPage.signInButton.click();
         new LoginPage().login("", "invalidPass");
         Assert.assertNotEquals(Driver.getDriver().getTitle(), "Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone");
 
@@ -42,6 +48,8 @@ public class LoginTest extends TestBase {
     @Test
     public void testInvalidCredentialsNoPassword() throws IOException{
         Driver.getDriver().get(ConfigReader.getProperty("url"));
+        LoginPage loginPage = null;
+        loginPage.signInButton.click();
         new LoginPage().login(ConfigReader.getProperty("username"), "");
         Assert.assertNotEquals(Driver.getDriver().getTitle(), "Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone");
 
@@ -50,6 +58,8 @@ public class LoginTest extends TestBase {
     @Test
     public void testInvalidCredentialsNoCred() throws IOException{
         Driver.getDriver().get(ConfigReader.getProperty("url"));
+        LoginPage loginPage = null;
+        loginPage.signInButton.click();
         new LoginPage().login("", "");
         Assert.assertNotEquals(Driver.getDriver().getTitle(), "Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone");
 
