@@ -66,7 +66,7 @@
       <recent name="Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.tests">
+  <component name="RunManager" selected="TestNG./Users/olyanasennik/IdeaProjects/TestNG/src/test/EtsyTeamB/regression-test-suite.xml">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,23 +79,6 @@
       </method>
     </configuration>
     <configuration name="SearchReasultSorting (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EtsyTeamB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SearchReasultSorting" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchReasultSorting" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EtsyTeamB" />
       <extension name="coverage">
         <pattern>
@@ -147,6 +130,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/olyanasennik/IdeaProjects/TestNG/src/test/EtsyTeamB/regression-test-suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EtsyTeamB" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/regression-test-suite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="tests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EtsyTeamB" />
       <extension name="coverage">
@@ -165,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/olyanasennik/IdeaProjects/TestNG/src/test/EtsyTeamB/regression-test-suite.xml" />
         <item itemvalue="TestNG.tests" />
         <item itemvalue="TestNG.SpecialCharacterSearch.SpecialCharacterSearch" />
         <item itemvalue="TestNG.SpecialCharacterSearch" />
         <item itemvalue="TestNG.SearchReasultSorting (1)" />
-        <item itemvalue="TestNG.SearchReasultSorting" />
       </list>
     </recent_temporary>
   </component>
