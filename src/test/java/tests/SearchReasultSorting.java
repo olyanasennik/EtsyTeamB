@@ -26,7 +26,7 @@ public class SearchReasultSorting extends TestBase {
         Thread.sleep(1000);
         driver.findElement(By.xpath("//div[@id='sortby']")).click();
        Thread.sleep(1000);
-    driver.findElement(By.xpath("//button[@title='Sort by: Lowest Price']")).click();
+    driver.findElement(By.xpath("//a[@data-sort-by='price_asc']")).click();
 
             }
     }
