@@ -11,7 +11,7 @@ import java.io.IOException;
 
 import static utilities.Driver.driver;
 
-public class LogOut {
+public class LogOut throws IOException {
 
     @Test(groups = "smoke")
     public void testLogOut() throws IOException {

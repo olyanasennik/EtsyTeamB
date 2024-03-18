@@ -13,13 +13,13 @@ import java.time.Duration;
 import static utilities.Driver.driver;
 
 public class SearchAdvancedTest extends TestBase {
-    @BeforeMethod
+
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
 
     }
 
-    @AfterMethod
+
     public void tearDown() {
         driver.quit();
     }

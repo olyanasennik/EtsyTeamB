@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe88d8d8-e6af-4dfe-8006-db603c2657e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LogOutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/LogOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+    <list default="true" id="fe88d8d8-e6af-4dfe-8006-db603c2657e7" name="Changes" comment="added login/logout tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LogOutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LogOutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LogOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SearchAdvancedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SearchAdvancedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SearchReasultSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SearchReasultSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/addToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/addToCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/emptySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/emptySearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +46,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/olyanasennik/IdeaProjects/TestNG/src/test/EtsyTeamB&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.tests.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/olyanasennik/IdeaProjects/TestNG/src/test/EtsyTeamB"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -60,20 +66,7 @@
       <recent name="Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SearchReasultSorting">
-    <configuration name="SpecialCharacterSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tests.SpecialCharacterSearch" />
-      <module name="EtsyTeamB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.tests">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,7 +147,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="emptySearch" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="tests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EtsyTeamB" />
       <extension name="coverage">
         <pattern>
@@ -163,8 +156,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.emptySearch" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -173,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SearchReasultSorting" />
+        <item itemvalue="TestNG.tests" />
         <item itemvalue="TestNG.SpecialCharacterSearch.SpecialCharacterSearch" />
         <item itemvalue="TestNG.SpecialCharacterSearch" />
-        <item itemvalue="Application.SpecialCharacterSearch" />
         <item itemvalue="TestNG.SearchReasultSorting (1)" />
+        <item itemvalue="TestNG.SearchReasultSorting" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +182,40 @@
       <option name="presentableId" value="Default" />
       <updated>1710603467070</updated>
     </task>
+    <task id="LOCAL-00001" summary="added logout page">
+      <option name="closed" value="true" />
+      <created>1710712191657</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710712191657</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added login/logout tests">
+      <option name="closed" value="true" />
+      <created>1710712525826</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710712525826</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added logout page" />
+    <MESSAGE value="added login/logout tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added login/logout tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

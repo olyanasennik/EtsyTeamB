@@ -8,11 +8,11 @@ import utilities.Driver;
 
 import java.io.IOException;
 
-public class LoginTest {
+public class LoginTest extends TestBase {
 
 
     @Test(groups = "smoke")
-    public void testValidCredentials() throws IOException {
+    public void testValidCredentials throws IOException {
 
         Driver.getDriver().get(ConfigReader.getProperty("url"));
         LoginPage loginPage = new LoginPage();
