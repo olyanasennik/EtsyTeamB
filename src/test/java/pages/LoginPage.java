@@ -14,6 +14,9 @@ public class LoginPage {
 
         PageFactory.initElements(Driver.getDriver(), this);
     }
+@FindBy (xpath = "//button[@class='wt-btn wt-btn--small wt-btn--transparent wt-mr-xs-1 inline-overlay-trigger signin-header-action select-signin header-button']");
+    private  WebElement signInbutton;
+
 
     @FindBy (id = "join_neu_email_field")
     private WebElement usernameField;
