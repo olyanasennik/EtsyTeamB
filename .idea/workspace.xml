@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe88d8d8-e6af-4dfe-8006-db603c2657e7" name="Changes" comment="added extends and @Data">
+    <list default="true" id="fe88d8d8-e6af-4dfe-8006-db603c2657e7" name="Changes" comment="updatedout1">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LogOutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LogOutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LogOut.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <recent name="Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LogOut">
+  <component name="RunManager" selected="TestNG./Users/olyanasennik/IdeaProjects/TestNG/src/test/EtsyTeamB/regression-test-suite.xml">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="EtsyTeamB" />
       <method v="2">
@@ -157,10 +156,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/olyanasennik/IdeaProjects/TestNG/src/test/EtsyTeamB/regression-test-suite.xml" />
         <item itemvalue="TestNG.LogOut" />
         <item itemvalue="TestNG.tests" />
         <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG./Users/olyanasennik/IdeaProjects/TestNG/src/test/EtsyTeamB/regression-test-suite.xml" />
         <item itemvalue="TestNG.SpecialCharacterSearch.SpecialCharacterSearch" />
       </list>
     </recent_temporary>
@@ -206,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710723573125</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updatedout1">
+      <option name="closed" value="true" />
+      <created>1710803956438</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710803956438</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,7 +231,8 @@
     <MESSAGE value="added logout page" />
     <MESSAGE value="added login/logout tests" />
     <MESSAGE value="added extends and @Data" />
-    <option name="LAST_COMMIT_MESSAGE" value="added extends and @Data" />
+    <MESSAGE value="updatedout1" />
+    <option name="LAST_COMMIT_MESSAGE" value="updatedout1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
