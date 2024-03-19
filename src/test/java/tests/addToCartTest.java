@@ -50,6 +50,7 @@ public class addToCartTest extends TestBase {
             Thread.sleep(500);
             driver.findElement(By.xpath("//*[@id=\"multi-shop-cart-list\"]/div[1]/div[1]/div/div/div[1]/form/div[2]/div[1]/button/span[1]")).click();
             driver.close();
+            
         }catch (Exception e) {
             System.out.println("Test Failed");
             driver.close();
