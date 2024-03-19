@@ -19,6 +19,5 @@ public class Etsy6ShowMore {
         driver.findElement(By.xpath("//*[@id=\"additional-categories__trigger--more\"]")).click();
         Thread.sleep(1000);
         driver.findElement(By.xpath("//button[@title='Show more (11)']")).click();
-
     }
 }
