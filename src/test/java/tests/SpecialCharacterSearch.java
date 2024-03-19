@@ -17,7 +17,7 @@ public class SpecialCharacterSearch extends TestBase {
             WebDriver driver = new ChromeDriver();
             driver.get("https://www.etsy.com");
 //input[@placeholder='Search for anything']
-            WebElement searchBox = driver.findElement(By.xpath("//input[@placeholder='Search for anything']"));
+            WebElement searchBox = driver.findElement(By.name("search_query"));
             searchBox.sendKeys("!@#$%^&*()");
             searchBox.sendKeys(Keys.RETURN);
 
