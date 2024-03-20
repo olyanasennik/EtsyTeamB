@@ -5,9 +5,7 @@ import org.testng.annotations.Test;
 
 import static utilities.Driver.driver;
 
-public class Searchreasultsorting extends TestBase {
-
-           // driver.quit();//div[@id='sortby']
+public class SearchResultsSorting extends TestBase {
 
     @Test
 

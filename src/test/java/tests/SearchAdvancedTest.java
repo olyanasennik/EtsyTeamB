@@ -13,16 +13,7 @@ import java.time.Duration;
 import static utilities.Driver.driver;
 
 public class SearchAdvancedTest extends TestBase {
-  //  @BeforeMethod
-   // public void setUp() {
-      //  System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
 
-   // }
-
-  //  @AfterMethod
-  //  public void tearDown() {
-   //     driver.quit();
-  //  }
 
         @Test
         public void testAdvancedSearch() throws InterruptedException { //driver.findElement(By.id("global-enhancements-search-query")).sendKeys("handmade jewelry");
@@ -39,6 +30,5 @@ public class SearchAdvancedTest extends TestBase {
             driver.findElement(By.xpath("//label[contains(text(),'FREE shipping')]")).click();
             Thread.sleep(1000);
             driver.findElement(By.xpath("//button[@class='wt-btn wt-btn--primary wt-width-full wt-mt-xs-3 wt-mb-xs-3 wt-mr-xs-3 wt-ml-xs-3']")).click();
-            driver.quit();
         }
     }

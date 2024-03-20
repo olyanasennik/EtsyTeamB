@@ -12,11 +12,10 @@ import java.util.List;
 public class SpecialCharacterSearch extends TestBase {
 
 
-        @Test
-        public static  void SpecialCharacterSearch() throws InterruptedException {
+
+        public SpecialCharacterSearch() throws InterruptedException {
             WebDriver driver = new ChromeDriver();
             driver.get("https://www.etsy.com");
-//input[@placeholder='Search for anything']
             WebElement searchBox = driver.findElement(By.name("search_query"));
             searchBox.sendKeys("!@#$%^&*()");
             searchBox.sendKeys(Keys.RETURN);

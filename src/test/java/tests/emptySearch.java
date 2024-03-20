@@ -8,16 +8,7 @@ import org.testng.annotations.Test;
 import static utilities.Driver.driver;
 
 public class emptySearch extends TestBase {
-  //  @BeforeMethod
-  //  public void setUp() {
-     //   System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
 
-   // }
-  //  @AfterMethod
-  //  public void tearDown() {
-       // driver.quit();
-
-     //   }
     @Test
     public void testEmptySearch() throws InterruptedException {
      driver.get("https://www.etsy.com");
