@@ -30,6 +30,8 @@ public class Etsy3AccessoriesAndBack {
         WebElement categoriesLink1 = driver.findElement(By.xpath("//*[@id=\"gnav-header-inner\"]/nav/div/button"));
         categoriesLink1.click();
 
+
+
     }
 }
 

@@ -21,6 +21,9 @@ public class Etsy4CategoriesBagsAndPurses {
 
         WebElement fourthCategory = driver.findElement(By.xpath("//*[@id=\"gnav-header-inner\"]/nav/div/div/a[4]"));
         fourthCategory.click();
+
+
+
     }
 }
 

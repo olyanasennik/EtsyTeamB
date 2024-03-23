@@ -26,6 +26,10 @@ public class Etsy5BagsAndPurseHandbags {
 
         WebElement Handbags = driver.findElement(By.xpath("//*[@id=\"rectangular-ingresses\"]/div[1]/div[1]/a/div"));
         Handbags.click();
+
+
+
+
     }
 
 }

@@ -22,5 +22,8 @@ public class Etsy2CategoriesAccessories {
 
         WebElement firstCategory = driver.findElement(By.xpath("//*[@id=\"gnav-header-inner\"]/nav/div/div/a[1]"));
         firstCategory.click();
+
+
+
     }
 }

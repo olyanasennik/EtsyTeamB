@@ -21,5 +21,8 @@ public class Etsy1Categories {
 
         WebElement categoriesLink = driver.findElement(By.xpath("//*[@id=\"gnav-header-inner\"]/nav/div/button"));
         categoriesLink.click();
+
+
+
     }
 }
