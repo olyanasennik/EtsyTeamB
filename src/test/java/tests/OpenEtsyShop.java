@@ -16,7 +16,7 @@ import static pages.GeneratePW.generateRandomPassword;
 import static utilities.Driver.driver;
 import static utilities.Driver.getDriver;
 
-public class OpenEtsyShop {
+public class OpenEtsyShop extends TestBase {
     @Test
     public void testOpenShopStage2() throws InterruptedException {
 
