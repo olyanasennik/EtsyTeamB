@@ -25,7 +25,8 @@ public class OpenEtsyShop extends TestBase {
         SellerPage sellerPage = new SellerPage();
         sellerPage.clickSellerHandbook();
         //Select button Create your Shop
-        Driver.getDriver().findElement(By.xpath("//a[@href='/your/shop/create?ref-seller-handbook=seller-handbook-open-shop-logged-in&ref=handbook']")).click();
+        Driver.getDriver().findElement(By.linkText("Create your shop"));
+    //(By.xpath("//a[@href='/your/shop/create?ref-seller-handbook=seller-handbook-open-shop-logged-in&ref=handbook']")).click();
         //Shop preferences page - language dropdown
         WebElement dropdownLang = Driver.getDriver().findElement(By.id("onboard-shop-language"));
         Select selectLang = new Select(dropdownLang);
